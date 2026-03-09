@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mifolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>>
+    <link rel="icon" type="image/x-icon" href="myfolio-img-logo.png" class="link">
+    <link rel="stylesheet" href="mifolio.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Mifolio</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 style="margin-bottom: 20px;">Full Stack Developer</h1>
+            <h2 style="color:white; font-weight:500; margin-bottom: 20px;">& UI/UX • Graphic Designer</h2>
+            <p class="change"></p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="animate-on-scroll">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="no-img-avatar.png" alt="Developer">
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Micheal, a passionate Full Stack Developer & Designer</h3>
+                    <p>With experience in web development, UI/UX design, and graphic design, I craft cohesive digital experiences. I have a strong foundation in both front-end and back-end technologies, plus an eye for aesthetics.</p>
+                    <p>My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet but exceed client expectations.</p>
+                    <div class="skills">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">PHP</span>
+                        <span class="skill">SQL</span>
+                        <span class="skill">Figma</span>
+                        <span class="skill">Adobe XD</span>
+                        <span class="skill">Corel Draw</span>
+                        <span class="skill">Canva</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="animate-on-scroll">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="mifolio-img1.png" alt="Blog Website" onclick="showImage(this)">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Website</h3>
+                        <p>A full-featured blog website with super admin, admin, and author dashboards.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="mifolio-img2.png" alt="School Management Website" onclick="showImage(this)">
+                    </div>
+                    <div class="project-info">
+                        <h3>School Management Website</h3>
+                        <p>Manages admins, teachers, students/results with personal dashboards.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="mifolio-img3.png" alt="E-commerce site" onclick="showImage(this)">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce site</h3>
+                        <p>Shopping Site with category, product Management</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="mifolio-img4.png" alt="Graphic Design" onclick="showImage(this)">
+                    </div>
+                    <div class="project-info">
+                        <h3>Graphic Designs</h3>
+                        <p>Birthday flyer</p>
+                        <div class="project-tags">
+                            <span class="tag">Corel Draw</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="mifolio-img5.png" alt="Graphic Design" onclick="showImage(this)">
+                    </div>
+                    <div class="project-info">
+                        <h3>Graphic Designs</h3>
+                        <p>Logo Designs</p>
+                        <div class="project-tags">
+                            <span class="tag">Corel Draw</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="mifolio-img6.png" alt="Graphic Design" onclick="showImage(this)">
+                    </div>
+                    <div class="project-info">
+                        <h3>Graphic Designs</h3>
+                        <p>Logo Designs</p>
+                        <div class="project-tags">
+                            <span class="tag">Corel Draw</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="animate-on-scroll">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern technologies and best practices for performance and scalability.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites and applications that look great and function perfectly on all devices and screen sizes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Robust server-side solutions, APIs, and database design to power your applications.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3>UI/UX & Graphic Design</h3>
+                    <p>Wireframing, prototyping, branding, and visual design that communicates your message.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="animate-on-scroll">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+           <p class="build">"Let’s build your website! Message me on WhatsApp and I’ll get back to you fast.”</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Nigeria, Ibadan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>olamicksax@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 806 142 8633</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="whatsappForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="+2341234567890" required>
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Enter subject" required>
+                        </div> -->
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            <i class="fab fa-whatsapp"></i>
+                            Open WhatsApp to Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="animate-on-scroll">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/babalola.micheal.olaleye.2025" target="_blank" title="Follow on Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/babalola-micheal-olaleye-0a6741392?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="Connect on LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/micheal1511" target="_blank" title="Follow on GitHub" class="social-link"><i class="fab fa-github"></i></a>
+                <a  href="https://twitter.com/olaleye_mi53771" target="_blank" title="Follow on Twitter" class="social-link"><i class="fas fa-times"></i></a>                
+                <!-- <a href="https://instagram.com/YOUR_USERNAME" target="_blank"
+                title="Follow on Instagram"class="social-link"><i class="fab fa-instagram"></i></a> -->
+            </div>
+            <p class="copyright">&copy; 2026  Mifolio. All rights reserved. <br>Crafted with passion and precision – UI/UX & graphic design</p>
+        </div>
+    </footer>
+    <script src="mifolio.js"></script>
+</body>
+</html>
